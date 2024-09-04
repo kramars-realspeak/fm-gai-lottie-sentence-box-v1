@@ -419,5 +419,119 @@
         ],
         "user_choice": [],
         "submitted": false
-      }      
+      },
+      
+    {
+      "image_src": "www.example.com/transport-images/helicopter-car-train.jpg",
+      "sentence": "The car is on the road.",
+      "boxes": [
+        "The car",
+        "is",
+        "on",
+        "the road"
+      ],
+      "cefr_level": "pre-a1",
+      "target_vocabulary": [
+        "helicopter",
+        "car",
+        "train"
+      ],
+      "target_grammar": [
+        "prepositions of place"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.example.com/clothing-images/shirt-hat-dress.jpg",
+      "sentence": "The hat is on the table.",
+      "boxes": [
+        "The hat",
+        "is",
+        "on",
+        "the table"
+      ],
+      "cefr_level": "pre-a1",
+      "target_vocabulary": [
+        "shirt",
+        "hat",
+        "dress"
+      ],
+      "target_grammar": [
+        "prepositions of place"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.example.com/food-images/hamburger-eggs-cheese.jpg",
+      "sentence": "The hamburger is on the plate.",
+      "boxes": [
+        "The hamburger",
+        "is",
+        "on",
+        "the plate"
+      ],
+      "cefr_level": "pre-a1",
+      "target_vocabulary": [
+        "hamburger",
+        "eggs",
+        "cheese"
+      ],
+      "target_grammar": [
+        "prepositions of place"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.example.com/people-images/eyes-hair-colors.jpg",
+      "sentence": "She has got blue eyes and brown hair.",
+      "boxes": [
+        "She",
+        "has got",
+        "blue eyes",
+        "and",
+        "brown hair"
+      ],
+      "cefr_level": "pre-a1",
+      "target_vocabulary": [
+        "blue",
+        "green",
+        "brown",
+        "eyes",
+        "hair"
+      ],
+      "target_grammar": [
+        "has got",
+        "have got"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    
+    {
+      "image_src": "www.example.com/school-supplies-images/pen-pencil-bag-eraser-ruler.jpg",
+      "sentence": "There is a pen in the bag.",
+      "boxes": [
+        "There is",
+        "a pen",
+        "in",
+        "the bag"
+      ],
+      "cefr_level": "pre-a1",
+      "target_vocabulary": [
+        "pen",
+        "pencil",
+        "bag",
+        "eraser",
+        "ruler"
+      ],
+      "target_grammar": [
+        "There is",
+        "There are"
+      ],
+      "user_choice": [],
+      "submitted": false
+    }      
 ]
