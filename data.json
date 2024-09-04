@@ -1,0 +1,423 @@
+[
+    {
+        "image_src": "www.animals.com/emotions.jpg",
+        "sentence": "The tiger is angry.",
+        "boxes": [
+          "The tiger",
+          "is",
+          "angry"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "happy",
+          "sad",
+          "angry",
+          "scared",
+          "tiger",
+          "lion",
+          "hippo",
+          "monkey"
+        ],
+        "target_grammar": [
+          "am",
+          "is"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.animals.com/emotions.jpg",
+        "sentence": "The monkey is happy.",
+        "boxes": [
+          "The monkey",
+          "is",
+          "happy"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "happy",
+          "sad",
+          "angry",
+          "scared",
+          "tiger",
+          "lion",
+          "hippo",
+          "monkey"
+        ],
+        "target_grammar": [
+          "am",
+          "is"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.emotions.com/am-is.jpg",
+        "sentence": "She is sad.",
+        "boxes": [
+          "She",
+          "is",
+          "sad"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "happy",
+          "sad",
+          "angry",
+          "scared"
+        ],
+        "target_grammar": [
+          "am",
+          "is"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.emotions.com/am-is.jpg",
+        "sentence": "I am happy.",
+        "boxes": [
+          "I",
+          "am",
+          "happy"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "happy",
+          "sad",
+          "angry",
+          "scared"
+        ],
+        "target_grammar": [
+          "am",
+          "is"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.hobbies.com/like-likes-to.jpg",
+        "sentence": "They like to swim.",
+        "boxes": [
+          "They",
+          "like",
+          "to",
+          "swim"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "dance",
+          "play",
+          "run",
+          "swim"
+        ],
+        "target_grammar": [
+          "likes to",
+          "like to"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.hobbies.com/like-likes-to.jpg",
+        "sentence": "I like to read.",
+        "boxes": [
+          "I",
+          "like",
+          "to",
+          "read"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "dance",
+          "play",
+          "run",
+          "read"
+        ],
+        "target_grammar": [
+          "likes to",
+          "like to"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.hobbies.com/like-likes-to.jpg",
+        "sentence": "She likes to dance.",
+        "boxes": [
+          "She",
+          "likes",
+          "to",
+          "dance"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "dance",
+          "play",
+          "run",
+          "sing"
+        ],
+        "target_grammar": [
+          "likes to",
+          "like to"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.animals.com/likes-to.jpg",
+        "sentence": "The monkey likes to swing.",
+        "boxes": [
+          "The monkey",
+          "likes",
+          "to",
+          "swing"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "tiger",
+          "lion",
+          "monkey"
+        ],
+        "target_grammar": [
+          "likes to"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.animals.com/likes-to.jpg",
+        "sentence": "The lion likes to roar.",
+        "boxes": [
+          "The lion",
+          "likes",
+          "to",
+          "roar"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "tiger",
+          "lion",
+          "monkey"
+        ],
+        "target_grammar": [
+          "likes to"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.emotions.com/likes-to-sports.jpg",
+        "sentence": "He likes to play soccer.",
+        "boxes": [
+          "He",
+          "likes",
+          "to play",
+          "soccer"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "He",
+          "She"
+        ],
+        "target_grammar": [
+          "likes to"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.familyactivities.com/likes-to.jpg",
+        "sentence": "Mum likes to cook.",
+        "boxes": [
+          "Mum",
+          "likes",
+          "to",
+          "cook"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "Mum",
+          "Dad",
+          "He",
+          "She"
+        ],
+        "target_grammar": [
+          "likes to"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.hobbies.com/like-to.jpg",
+        "sentence": "I like to swim.",
+        "boxes": [
+          "I",
+          "like",
+          "to",
+          "swim"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "swim",
+          "dance",
+          "run",
+          "sing"
+        ],
+        "target_grammar": [
+          "like to"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.activities.com/to-verb.jpg",
+        "sentence": "I want to play.",
+        "boxes": [
+          "I",
+          "want",
+          "to",
+          "play"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "play",
+          "eat",
+          "sleep",
+          "go"
+        ],
+        "target_grammar": [
+          "verb + to"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.activities.com/play-ride-cook-study.jpg",
+        "sentence": "I like to ride my bike.",
+        "boxes": [
+          "I",
+          "like",
+          "to ride",
+          "my bike"
+        ],
+        "cefr_level": "a1",
+        "target_vocabulary": [
+          "play",
+          "ride",
+          "cook",
+          "study"
+        ],
+        "target_grammar": [
+          "present simple tense"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.emotions.com/happy-sad-angry-scared.jpg",
+        "sentence": "She is happy.",
+        "boxes": [
+          "She",
+          "is",
+          "happy"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "happy",
+          "sad",
+          "angry",
+          "scared"
+        ],
+        "target_grammar": [
+          "present simple tense"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.animals.com/he-she-it.jpg",
+        "sentence": "He is happy.",
+        "boxes": [
+          "He",
+          "is",
+          "happy"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "he",
+          "she",
+          "it"
+        ],
+        "target_grammar": [
+          "present continuous tense"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.familyportraits.com/family.jpg",
+        "sentence": "My sister is playing.",
+        "boxes": [
+          "My sister",
+          "is playing",
+          "with",
+          "Dad"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "Mum",
+          "Dad",
+          "Brother",
+          "Sister"
+        ],
+        "target_grammar": [
+          "present continuous tense"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.oceanlife.com/shark-dolphin-turtle.jpg",
+        "sentence": "The shark is hunting.",
+        "boxes": [
+          "The shark",
+          "is hunting",
+          "while",
+          "the dolphin",
+          "is playing"
+        ],
+        "cefr_level": "pre-a1",
+        "target_vocabulary": [
+          "shark",
+          "dolphin",
+          "turtle"
+        ],
+        "target_grammar": [
+          "present continuous tense"
+        ],
+        "user_choice": [],
+        "submitted": false
+      },
+      {
+        "image_src": "www.sea-life.com/shark-dolphin-turtle.jpg",
+        "sentence": "The dolphin is swimming near the turtle.",
+        "boxes": [
+          "The dolphin",
+          "is swimming",
+          "near",
+          "the turtle"
+        ],
+        "cefr_level": "a1",
+        "target_vocabulary": [
+          "shark",
+          "dolphin",
+          "turtle"
+        ],
+        "target_grammar": [
+          "present continuous tense"
+        ],
+        "user_choice": [],
+        "submitted": false
+      }      
+]
