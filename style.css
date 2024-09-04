@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.sentence-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.drop-area{
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+  border: 2px solid red; /* Corrected border property */
+}
+
+.drop-box {
+  width: 80px;
+  height: 80px;
+  border: 2px dashed #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.word-container {
+  display: flex;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.word-box {
+  cursor: grab;
+  color: black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border: 2px solid #ccc;
+  transition: background-color 0.3s;
+}
+
+.word-box:active {
+  cursor: grabbing;
+  transform: scale(1.1);
+}
+
+#submit-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#submit-btn:hover {
+  background-color: #218838;
+}
+
+.hidden {
+  display: none; /* Hide element when dragging */
+}
+
+.hovered {
+  background-color: #f1f1f1; /* Visual feedback when hovering over drop area */
+}

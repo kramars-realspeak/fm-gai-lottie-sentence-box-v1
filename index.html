@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Learning Activity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Image Div -->
+    <div class="image-container">
+      <img src="https://via.placeholder.com/400" alt="Activity Image" id="activity-image">
+    </div>
+
+    <!-- Sentence Drag-and-Drop Div -->
+    <div class="sentence-container">
+      <div class="drop-area" id="drop-area">
+        <!-- Drop areas for words -->
+        <div class="drop-box" data-order="1"></div>
+        <div class="drop-box" data-order="2"></div>
+        <div class="drop-box" data-order="3"></div>
+        <div class="drop-box" data-order="4"></div>
+      </div>
+            
+      <!-- Draggable Word Boxes -->
+      <div class="word-container" id="word-container">
+        <div class="word-box" draggable="true" data-word="Word1">Word1</div>
+        <div class="word-box" draggable="true" data-word="Word2">Word2</div>
+        <div class="word-box" draggable="true" data-word="Word3">Word3</div>
+        <div class="word-box" draggable="true" data-word="Word4">Word4</div>
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button id="submit-btn">Submit</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
