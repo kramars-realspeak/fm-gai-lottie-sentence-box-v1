@@ -794,10 +794,10 @@
     },
     {
       "image_src": "www.animals.com/monkey-elephant-snake-tiger.jpg",
-      "sentence": "The tiger chased the monkey.",
+      "sentence": "The tiger ate the monkey.",
       "boxes": [
         "The tiger",
-        "chased",
+        "ate",
         "the monkey"
       
       ],
