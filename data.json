@@ -791,5 +791,27 @@
       ],
       "user_choice": [],
       "submitted": false
+    },
+    {
+      "image_src": "www.animals.com/monkey-elephant-snake-tiger.jpg",
+      "sentence": "The tiger chased the monkey yesterday.",
+      "boxes": [
+        "The tiger",
+        "chased",
+        "the monkey",
+        "yesterday"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "monkey",
+        "elephant",
+        "snake",
+        "tiger"
+      ],
+      "target_grammar": [
+        "past simple tense"
+      ],
+      "user_choice": [],
+      "submitted": false
     }
   ]
