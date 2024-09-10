@@ -533,5 +533,31 @@
       ],
       "user_choice": [],
       "submitted": false
-    }      
-]
+    },      
+    {
+      "image_src": "www.animals.com/emotions.jpg",
+      "sentence": "The hippo is scared.",
+      "boxes": [
+        "The hippo",
+        "is",
+        "scared"
+      ],
+      "cefr_level": "pre-a1",
+      "target_vocabulary": [
+        "happy",
+        "sad",
+        "angry",
+        "scared",
+        "tiger",
+        "lion",
+        "hippo",
+        "monkey"
+      ],
+      "target_grammar": [
+        "am",
+        "is"
+      ],
+      "user_choice": [],
+      "submitted": false
+    }
+  ]
