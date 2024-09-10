@@ -794,12 +794,12 @@
     },
     {
       "image_src": "www.animals.com/monkey-elephant-snake-tiger.jpg",
-      "sentence": "The tiger chased the monkey yesterday.",
+      "sentence": "The tiger chased the monkey.",
       "boxes": [
         "The tiger",
         "chased",
-        "the monkey",
-        "yesterday"
+        "the monkey"
+      
       ],
       "cefr_level": "a2",
       "target_vocabulary": [
