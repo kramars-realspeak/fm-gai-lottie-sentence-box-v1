@@ -1,11 +1,11 @@
 [
     {
         "image_src": "www.animals.com/emotions.jpg",
-        "sentence": "The tiger is angry.",
+        "sentence": "The tiger is happy.",
         "boxes": [
           "The tiger",
           "is",
-          "angry"
+          "happy"
         ],
         "cefr_level": "pre-a1",
         "target_vocabulary": [
