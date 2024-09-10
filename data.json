@@ -679,5 +679,117 @@
       ],
       "user_choice": [],
       "submitted": false
+    },
+    {
+      "image_src": "www.animals.com/monkey-elephant-snake-tiger.jpg",
+      "sentence": "The elephant walked slowly.",
+      "boxes": [
+        "The",
+        "elephant",
+        "walked",
+        "slowly"
+      ],
+      "cefr_level": "a1",
+      "target_vocabulary": [
+        "monkey",
+        "elephant",
+        "snake",
+        "tiger"
+      ],
+      "target_grammar": [
+        "past simple tense"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.animals.com/monkey-dog-cat-tiger.jpg",
+      "sentence": "The cat is sleeping on the couch.",
+      "boxes": [
+        "The cat",
+        "is",
+        "sleeping",
+        "on",
+        "the couch"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "monkey",
+        "dog",
+        "cat",
+        "tiger"
+      ],
+      "target_grammar": [
+        "present continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.professions.com/teacher-builder-pilot-doctor.jpg",
+      "sentence": "The doctor is helping a patient.",
+      "boxes": [
+        "The doctor",
+        "is",
+        "helping",
+        "a patient"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "teacher",
+        "builder",
+        "pilot",
+        "doctor"
+      ],
+      "target_grammar": [
+        "present continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.family.com/mum-dad-brother-sister.jpg",
+      "sentence": "My sister is playing with the ball.",
+      "boxes": [
+        "My sister",
+        "is",
+        "playing",
+        "with",
+        "the ball"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "Mum",
+        "Dad",
+        "Brother",
+        "Sister"
+      ],
+      "target_grammar": [
+        "present continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.family.com/mum-dad-brother-sister.jpg",
+      "sentence": "Dad is cooking dinner.",
+      "boxes": [
+        "Dad",
+        "is",
+        "cooking",
+        "dinner"
+      ],
+      "cefr_level": "a1",
+      "target_vocabulary": [
+        "Mum",
+        "Dad",
+        "Brother",
+        "Sister"
+      ],
+      "target_grammar": [
+        "present continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
     }
   ]
