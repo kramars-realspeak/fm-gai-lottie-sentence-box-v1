@@ -834,5 +834,30 @@
       ],
       "user_choice": [],
       "submitted": false
+    },
+    {
+      "image_src": "www.familyactivities.com/family.jpg",
+      "sentence": "My sister is watching TV in the living room.",
+      "boxes": [
+        "My sister",
+        "is",
+        "watching",
+        "TV",
+        "in the",
+        "living room"
+        
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "Mum",
+        "Dad",
+        "Brother",
+        "Sister"
+      ],
+      "target_grammar": [
+        "present continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
     }
   ]
