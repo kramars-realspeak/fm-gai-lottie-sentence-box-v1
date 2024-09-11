@@ -813,5 +813,26 @@
       ],
       "user_choice": [],
       "submitted": false
+    },
+    {
+      "image_src": "www.sea-life.com/shark-dolphin-turtle.jpg",
+      "sentence": "The dolphin jumped high.",
+      "boxes": [
+        "The",
+        "dolphin",
+        "jumped",
+        "fast"
+      ],
+      "cefr_level": "a1",
+      "target_vocabulary": [
+        "shark",
+        "dolphin",
+        "turtle"
+      ],
+      "target_grammar": [
+        "past simple tense"
+      ],
+      "user_choice": [],
+      "submitted": false
     }
   ]
