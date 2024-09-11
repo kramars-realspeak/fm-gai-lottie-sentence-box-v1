@@ -859,5 +859,31 @@
       ],
       "user_choice": [],
       "submitted": false
+    },
+    {
+      "image_src": "www.familyactivities.com/family-past.jpg",
+      "sentence": "My brother was playing soccer when I called him.",
+      "boxes": [
+        "My brother",
+        "was",
+        "playing",
+        "soccer",
+        "when",
+        "I",
+        "called",
+        "him"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "Mum",
+        "Dad",
+        "Brother",
+        "Sister"
+      ],
+      "target_grammar": [
+        "past continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
     }
   ]
