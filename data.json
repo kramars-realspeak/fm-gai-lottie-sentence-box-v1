@@ -885,5 +885,26 @@
       ],
       "user_choice": [],
       "submitted": false
+    },
+    {
+      "image_src": "www.professions.com/doctor-teacher-police-officer.jpg",
+      "sentence": "The doctor is treating the patient.",
+      "boxes": [
+        "The doctor",
+        "is",
+        "treating",
+        "the lesson"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "doctor",
+        "teacher",
+        "police officer"
+      ],
+      "target_grammar": [
+        "present continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
     }
   ]
