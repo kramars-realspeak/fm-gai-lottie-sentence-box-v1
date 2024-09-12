@@ -38,7 +38,8 @@ data = {
 }
 
 def assess_sentence_cefrpy(sentence):
-    words = sentence.split()
+    # split sentence into words and remove the dot at the end if there is a dot
+    words = sentence[:-1].split(" ") if sentence[-1] == "." else sentence.split(" ")
     for word in words:
         word_level_float = analyzer.get_average_word_level_float(word.lower())
         word_level_cefr = analyzer.get_average_word_level_CEFR(word.lower())
