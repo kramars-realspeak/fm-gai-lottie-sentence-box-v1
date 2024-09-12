@@ -11,19 +11,18 @@ Validate package installation by running the following commands:
     - python -m cefrpy validate
 """
 
-from nltk.tokenize import word_tokenize
 from cefrpy import CEFRAnalyzer
 
 analyzer = CEFRAnalyzer()
 
 data = {
     "image_src": "www.professions.com/doctor-teacher-police-officer.jpg",
-    "sentence": "The doctor is treating the patient.",
+    "sentence": "The doctor is helping the patient.",
     "boxes": [
         "The doctor",
         "is",
-        "treating",
-        "the lesson"
+        "helping",
+        "patient"
     ],
     "cefr_level": "a2",
     "target_vocabulary": [
@@ -39,13 +38,14 @@ data = {
 }
 
 def assess_sentence_cefrpy(sentence):
-    for word in word_tokenize(sentence):
-        word_level_float = analyzer.get_average_word_level_float(word)
-        word_level_cefr = analyzer.get_average_word_level_CEFR(word)
+    words = sentence.split()
+    for word in words:
+        word_level_float = analyzer.get_average_word_level_float(word.lower())
+        word_level_cefr = analyzer.get_average_word_level_CEFR(word.lower())
         print(f"CEFRpy Word Level for '{word}': {word_level_cefr} = {word_level_float}")
 
-def assess_sentence(sentence, cefr_target_level):    
+def assess_sentence(sentence):    
     print("\nUsing CEFRpy for sentence-level assessment:")
     assess_sentence_cefrpy(sentence)
 
-assess_sentence(data["sentence"], data["cefr_level"])
+assess_sentence(data["sentence"])
