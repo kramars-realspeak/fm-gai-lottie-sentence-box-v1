@@ -834,5 +834,77 @@
       ],
       "user_choice": [],
       "submitted": false
+    },
+    {
+      "image_src": "www.familyactivities.com/family.jpg",
+      "sentence": "My sister is watching TV in the living room.",
+      "boxes": [
+        "My sister",
+        "is",
+        "watching",
+        "TV",
+        "in the",
+        "living room"
+        
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "Mum",
+        "Dad",
+        "Brother",
+        "Sister"
+      ],
+      "target_grammar": [
+        "present continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "media/img/16-09-2024-09-28-16.png",
+      "sentence": "My brother was playing soccer when I called him.",
+      "boxes": [
+        "My brother",
+        "was",
+        "playing",
+        "soccer",
+        "when",
+        "I",
+        "called",
+        "him"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "Mum",
+        "Dad",
+        "Brother",
+        "Sister"
+      ],
+      "target_grammar": [
+        "past continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "media/img/16-09-2024-06-46-00.png",
+      "sentence": "The doctor is helping the patient.",
+      "boxes": [
+        "The doctor",
+        "is",
+        "helping",
+        "the patient"
+      ],
+      "cefr_level": "pre-a1",
+      "target_vocabulary": [
+        "doctor",
+        "teacher",
+        "police officer"
+      ],
+      "target_grammar": [
+        "present continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
     }
   ]
