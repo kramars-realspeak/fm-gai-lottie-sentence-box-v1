@@ -861,7 +861,7 @@
       "submitted": false
     },
     {
-      "image_src": "www.familyactivities.com/family-past.jpg",
+      "image_src": "media/img/16-09-2024-09-28-16.png",
       "sentence": "My brother was playing soccer when I called him.",
       "boxes": [
         "My brother",
@@ -887,15 +887,15 @@
       "submitted": false
     },
     {
-      "image_src": "www.professions.com/doctor-teacher-police-officer.jpg",
-      "sentence": "The doctor is treating the patient.",
+      "image_src": "media/img/16-09-2024-06-46-00.png",
+      "sentence": "The doctor is helping the patient.",
       "boxes": [
         "The doctor",
         "is",
-        "treating",
-        "the lesson"
+        "helping",
+        "the patient"
       ],
-      "cefr_level": "a2",
+      "cefr_level": "pre-a1",
       "target_vocabulary": [
         "doctor",
         "teacher",
