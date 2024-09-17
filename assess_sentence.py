@@ -22,7 +22,7 @@ data = {
     "There",
     "is",
     "a",
-    "book"{
+    "book"],
   "image_src": "www.school-supplies.com/pencil-eraser-highlighter-ruler-pencil-case.jpg",
   "sentence": "I can see a ruler on the desk.",
   "boxes": [
@@ -51,6 +51,7 @@ data = {
   "user_choice": [],
   "submitted": False
 }
+
 def assess_sentence_cefrpy(sentence):
     # split sentence into words and remove the dot at the end if there is a dot
     words = sentence[:-1].split(" ") if sentence[-1] == "." else sentence.split(" ")
