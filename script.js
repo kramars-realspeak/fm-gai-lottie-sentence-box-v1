@@ -1,31 +1,33 @@
 document.addEventListener('DOMContentLoaded', () => {
   const data =     {
-    "image_src": "media/img/16-09-2024-10-12-38.png",
-    "sentence": "My brother was playing soccer when I called him.",
+    "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/17-09-2024-15-10-03.png",
+    "sentence": "I can see a ruler on the desk.",
     "boxes": [
-      "My brother",
-      "was",
-      "playing",
-      "soccer",
-      "when",
       "I",
-      "called",
-      "him"
+      "can",
+      "see",
+      "a",
+      "ruler",
+      "on",
+      "the desk"
     ],
     "cefr_level": "a2",
     "target_vocabulary": [
-      "Mum",
-      "Dad",
-      "Brother",
-      "Sister"
+      "pencil",
+      "eraser",
+      "highlighter",
+      "ruler",
+      "pencil case",
+      "table",
+      "desk",
+      "chair"
     ],
     "target_grammar": [
-      "past continuous tense"
+      "I can see"
     ],
     "user_choice": [],
     "submitted": false
-  };
-
+  }
   function allDropTargetsPopulated() {
     const dropTargets = document.querySelectorAll('.droptarget');
     return Array.from(dropTargets).every(target => target.textContent !== 'drop here');

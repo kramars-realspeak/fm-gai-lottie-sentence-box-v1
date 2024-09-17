@@ -682,12 +682,13 @@
     },
     {
       "image_src": "www.animals.com/monkey-elephant-snake-tiger.jpg",
-      "sentence": "The elephant walked slowly.",
+      "sentence": "The elephant is the tallest animal.",
       "boxes": [
         "The",
         "elephant",
-        "walked",
-        "slowly"
+        "is",
+        "the tallest", 
+        "animal"
       ],
       "cefr_level": "a1",
       "target_vocabulary": [
@@ -816,12 +817,12 @@
     },
     {
       "image_src": "www.sea-life.com/shark-dolphin-turtle.jpg",
-      "sentence": "The dolphin jumped fast.",
+      "sentence": "The dolphin jumped high.",
       "boxes": [
         "The",
         "dolphin",
         "jumped",
-        "fast"
+        "high"
       ],
       "cefr_level": "a1",
       "target_vocabulary": [
@@ -906,5 +907,148 @@
       ],
       "user_choice": [],
       "submitted": false
-    }
+    },
+    {
+      "image_src": "www.school-supplies.com/pencil-bookcase-ruler-eraser.jpg",
+      "sentence": "The pencil is on the bookcase.",
+      "boxes": [
+        "The pencil",
+        "is",
+        "on",
+        "the bookcase"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "pencil",
+        "bookcase",
+        "ruler",
+        "eraser"
+      ],
+      "target_grammar": [
+        "prepositions"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+  "image_src": "www.school-items.com/pencil-bookcase-ruler-eraser.jpg",
+  "sentence": "The eraser is next to the ruler.",
+  "boxes": [
+    "The eraser",
+    "is",
+    "next to",
+    "the ruler"
+  ],
+  "cefr_level": "a2",
+  "target_vocabulary": [
+    "pencil",
+    "bookcase",
+    "ruler",
+    "eraser"
+  ],
+  "target_grammar": [
+    "prepositions"
+  ],
+  "user_choice": [],
+  "submitted": false
+},
+{
+  "image_src": "www.school-items.com/pencil-bookcase-ruler-eraser.jpg",
+  "sentence": "The pencil is on the desk.",
+  "boxes": [
+    "The pencil",
+    "is",
+    "on",
+    "the desk"
+  ],
+  "cefr_level": "a2",
+  "target_vocabulary": [
+    "pencil",
+    "bookcase",
+    "ruler",
+    "eraser"
+  ],
+  "target_grammar": [
+    "prepositions"
+  ],
+  "user_choice": [],
+  "submitted": false
+},
+{
+  "image_src": "www.school-supplies.com/board-schoolbag-ruler-crayon.jpg",
+  "sentence": "The crayon is in the schoolbag.",
+  "boxes": [
+    "The crayon",
+    "is",
+    "in",
+    "the schoolbag"
+  ],
+  "cefr_level": "a2",
+  "target_vocabulary": [
+    "board",
+    "schoolbag",
+    "ruler",
+    "crayon"
+  ],
+  "target_grammar": [
+    "prepositions"
+  ],
+  "user_choice": [],
+  "submitted": false
+},
+{
+  "image_src": "www.household-items.com/book-car-bed-sock-shoe-cat.jpg",
+  "sentence": "There is a book on the table.",
+  "boxes": [
+    "There",
+    "is",
+    "a",
+    "book",
+    "on",
+    "the table"
+  ],
+  "cefr_level": "a1",
+  "target_vocabulary": [
+    "book",
+    "car",
+    "bed",
+    "sock",
+    "shoe",
+    "cat"
+  ],
+  "target_grammar": [
+    "There is a ____"
+  ],
+  "user_choice": [],
+  "submitted": false
+},
+{
+  "image_src": "www.school-supplies.com/pencil-eraser-highlighter-ruler-pencil-case.jpg",
+  "sentence": "I can see a ruler on the desk.",
+  "boxes": [
+    "I",
+    "can",
+    "see",
+    "a",
+    "ruler",
+    "on",
+    "the desk"
+  ],
+  "cefr_level": "a2",
+  "target_vocabulary": [
+    "pencil",
+    "eraser",
+    "highlighter",
+    "ruler",
+    "pencil case",
+    "table",
+    "desk",
+    "chair"
+  ],
+  "target_grammar": [
+    "I can see"
+  ],
+  "user_choice": [],
+  "submitted": false
+}
   ]
