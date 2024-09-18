@@ -69,7 +69,7 @@ def generate_and_save_image(data, style, output_folder="./media/img", image_size
         os.makedirs(output_folder)
     try:
         print("Generating image...")
-        key = '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'
+        key = 'None'
         client = OpenAI(api_key=key)
         prompt = craft_prompt(data, style)
         response = client.images.generate(
