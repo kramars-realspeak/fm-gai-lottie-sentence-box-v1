@@ -1,30 +1,28 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const data =     {
-    "image_src": "media/img/16-09-2024-10-12-38.png",
-    "sentence": "My brother was playing soccer when I called him.",
+  const data =  {
+    "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/18-09-2024-20-05-20.png",
+    "sentence": "She is wearing orange trousers and a red hat.",
     "boxes": [
-      "My brother",
-      "was",
-      "playing",
-      "soccer",
-      "when",
-      "I",
-      "called",
-      "him"
+      "She",
+      "is wearing",
+      "orange trousers",
+      "and",
+      "a red hat"
     ],
     "cefr_level": "a2",
     "target_vocabulary": [
-      "Mum",
-      "Dad",
-      "Brother",
-      "Sister"
+      "orange trousers",
+      "red hat",
+      "gloves",
+      "big shoes"
     ],
     "target_grammar": [
-      "past continuous tense"
+      "is wearing",
+      "are wearing"
     ],
     "user_choice": [],
     "submitted": false
-  };
+  }
 
   function allDropTargetsPopulated() {
     const dropTargets = document.querySelectorAll('.droptarget');
