@@ -1,26 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const data =     {
-    "image_src": "media/img/16-09-2024-10-12-38.png",
-    "sentence": "My brother was playing soccer when I called him.",
+  const data =   {
+    "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/19-09-2024-17-17-56.png",
+    "sentence": "He is my granddad.",
     "boxes": [
-      "My brother",
-      "was",
-      "playing",
-      "soccer",
-      "when",
-      "I",
-      "called",
-      "him"
+      "He",
+      "is",
+      "my granddad"
     ],
-    "cefr_level": "a2",
+    "cefr_level": "a1",
     "target_vocabulary": [
-      "Mum",
-      "Dad",
-      "Brother",
-      "Sister"
+      "grandma",
+      "granddad"
     ],
     "target_grammar": [
-      "past continuous tense"
+      "He is my",
+      "She is my"
     ],
     "user_choice": [],
     "submitted": false

@@ -906,5 +906,111 @@
       ],
       "user_choice": [],
       "submitted": false
+    },
+    {
+      "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/19-09-2024-16-14-18.png",
+      "sentence": "The knight is holding a sword.",
+      "boxes": [
+        "The knight",
+        "is holding",
+        "a sword"
+      ],
+      "cefr_level": "a1",
+      "target_vocabulary": [
+        "knight",
+        "sword",
+        "castle",
+        "armor"
+      ],
+      "target_grammar": [
+        "present continuous tense"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.clothing.com/outfit.jpg",
+      "sentence": "She is wearing orange trousers and a red hat.",
+      "boxes": [
+        "She",
+        "is wearing",
+        "orange trousers",
+        "and",
+        "a red hat"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "orange trousers",
+        "red hat",
+        "gloves",
+        "big shoes"
+      ],
+      "target_grammar": [
+        "is wearing",
+        "are wearing"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.sports.com/hockey.jpg",
+      "sentence": "The best sport is hockey.",
+      "boxes": [
+        "The best sport",
+        "is",
+        "hockey"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "football",
+        "hockey",
+        "tennis",
+        "basketball"
+      ],
+      "target_grammar": [],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.family.com/simple-family.jpg",
+      "sentence": "She is my mum.",
+      "boxes": [
+        "She",
+        "is",
+        "my mum"
+      ],
+      "cefr_level": "a1",
+      "target_vocabulary": [
+        "mum",
+        "dad",
+        "brother",
+        "sister"
+      ],
+      "target_grammar": [
+        "He is my",
+        "She is my"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.family.com/grandparents.jpg",
+      "sentence": "He is my granddad.",
+      "boxes": [
+        "He",
+        "is",
+        "my granddad"
+      ],
+      "cefr_level": "a1",
+      "target_vocabulary": [
+        "grandma",
+        "granddad"
+      ],
+      "target_grammar": [
+        "He is my",
+        "She is my"
+      ],
+      "user_choice": [],
+      "submitted": false
     }
   ]

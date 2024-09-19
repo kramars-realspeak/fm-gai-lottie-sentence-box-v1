@@ -16,25 +16,24 @@ from cefrpy import CEFRAnalyzer
 analyzer = CEFRAnalyzer()
 
 data = {
-    "image_src": "www.professions.com/doctor-teacher-police-officer.jpg",
-    "sentence": "The doctor is helping the patient.",
-    "boxes": [
-        "The doctor",
-        "is",
-        "helping",
-        "patient"
-    ],
-    "cefr_level": "a2",
-    "target_vocabulary": [
-        "doctor",
-        "teacher",
-        "police officer"
-    ],
-    "target_grammar": [
-        "present continuous tense"
-    ],
-    "user_choice": [],
-    "submitted": False
+  "image_src": "www.family.com/grandparents.jpg",
+  "sentence": "He is my granddad.",
+  "boxes": [
+    "He",
+    "is",
+    "my granddad"
+  ],
+  "cefr_level": "a1",
+  "target_vocabulary": [
+    "grandma",
+    "granddad"
+  ],
+  "target_grammar": [
+    "He is my",
+    "She is my"
+  ],
+  "user_choice": [],
+  "submitted": False
 }
 
 def assess_sentence_cefrpy(sentence):

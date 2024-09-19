@@ -17,35 +17,29 @@ import os
 from datetime import datetime
 from openai import OpenAI
 
-styles = ["Comic Book", "Gaming", "Realistic", "Fantasy", "GTA5 like", "Minecraft", "Photography", "Lego", "Taylor Swift", "Game of Thrones - Winterfell"]
-style = styles[9]
+styles = ["Comic Book", "Gaming", "Realistic", "Fantasy", "GTA5 like", "Minecraft", "Photography", "Lego", "Taylor Swift", "Game of Thrones - Winterfell", "Roblox", "Fortnite", "School", "Among Us", "Five nights at Freddy's"]
+style = styles[5]
 
-data_structure =     {
-      "image_src": "",
-      "sentence": "My brother was playing soccer when I called him.",
-      "boxes": [
-        "My brother",
-        "was",
-        "playing",
-        "soccer",
-        "when",
-        "I",
-        "called",
-        "him"
-      ],
-      "cefr_level": "a2",
-      "target_vocabulary": [
-        "Mum",
-        "Dad",
-        "Brother",
-        "Sister"
-      ],
-      "target_grammar": [
-        "past continuous tense"
-      ],
-      "user_choice": [],
-      "submitted": False
-    }
+data_structure =    {
+  "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/19-09-2024-17-17-56.png",
+  "sentence": "He is my granddad.",
+  "boxes": [
+    "He",
+    "is",
+    "my granddad"
+  ],
+  "cefr_level": "a1",
+  "target_vocabulary": [
+    "grandma",
+    "granddad"
+  ],
+  "target_grammar": [
+    "He is my",
+    "She is my"
+  ],
+  "user_choice": [],
+  "submitted": False
+}
 
 def craft_prompt(data, style):
     """Crafts a prompt for DALL-E based on the input data structure."""
@@ -55,8 +49,9 @@ def craft_prompt(data, style):
     action_phrase = sentence
     prompt = (
         f"An image showing a scene where a {', '.join(target_vocabulary)} are involved. "
-        f"The scene should depict: {action_phrase} The image should also reflect the grammar usage: {', '.join(target_grammar)}."
+        f"The scene should depict: {action_phrase}"
         f"Style: {style}"
+        f"comment: never include text"
     )
     print(f"Crafted prompt: {prompt}")
     return prompt
@@ -66,7 +61,7 @@ def generate_and_save_image(data, style, output_folder="./media/img", image_size
         os.makedirs(output_folder)
     try:
         print("Generating image...")
-        key = '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'
+        key = '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'
         client = OpenAI(api_key=key)
         prompt = craft_prompt(data, style)
         response = client.images.generate(
