@@ -682,12 +682,13 @@
     },
     {
       "image_src": "www.animals.com/monkey-elephant-snake-tiger.jpg",
-      "sentence": "The elephant walked slowly.",
+      "sentence": "The elephant is the tallest animal.",
       "boxes": [
         "The",
         "elephant",
-        "walked",
-        "slowly"
+        "is",
+        "the tallest", 
+        "animal"
       ],
       "cefr_level": "a1",
       "target_vocabulary": [
@@ -816,12 +817,12 @@
     },
     {
       "image_src": "www.sea-life.com/shark-dolphin-turtle.jpg",
-      "sentence": "The dolphin jumped fast.",
+      "sentence": "The dolphin jumped high.",
       "boxes": [
         "The",
         "dolphin",
         "jumped",
-        "fast"
+        "high"
       ],
       "cefr_level": "a1",
       "target_vocabulary": [
@@ -908,6 +909,7 @@
       "submitted": false
     },
     {
+
       "image_src": "www.animals.com/size-comparison.jpg",
       "sentence": "The giraffe is taller than the monkey.",
       "boxes": [
@@ -928,6 +930,7 @@
         "smaller than",
         "scarier than",
         "taller than"
+
       ],
       "user_choice": [],
       "submitted": false
@@ -1077,4 +1080,5 @@
       "user_choice": [],
       "submitted": false
     }
+
   ]

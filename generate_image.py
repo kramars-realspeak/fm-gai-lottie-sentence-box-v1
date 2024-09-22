@@ -45,7 +45,6 @@ data_structure =  {
   "submitted": False
 }
 
-
 def craft_prompt(data, style):
     """Crafts a prompt for DALL-E based on the input data structure."""
     sentence = data.get("sentence", "")

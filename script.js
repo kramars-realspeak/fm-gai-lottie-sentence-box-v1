@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
   const data =  {
     "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/18-09-2024-20-05-20.png",
     "sentence": "She is wearing orange trousers and a red hat.",
@@ -23,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "user_choice": [],
     "submitted": false
   }
-
+  
   function allDropTargetsPopulated() {
     const dropTargets = document.querySelectorAll('.droptarget');
     return Array.from(dropTargets).every(target => target.textContent !== 'drop here');
