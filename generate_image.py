@@ -17,34 +17,29 @@ import os
 from datetime import datetime
 from openai import OpenAI
 
-styles = ["Comic Book", "Gaming", "Realistic", "Fantasy", "GTA5 like", "Minecraft", "Photography", "Lego", "Taylor Swift", "Game of Thrones - Winterfell"]
-style = styles[-4]
+styles = ["Comic Book", "Gaming", "Realistic", "Fantasy", "GTA5 like", "Minecraft", "Photography", "Lego", "Taylor Swift", "Game of Thrones - Winterfell", "Super Mario", "Pokemon"]
+style = styles[-1]
 
-data_structure = {
-  "image_src": "www.school-supplies.com/pencil-eraser-highlighter-ruler-pencil-case.jpg",
-  "sentence": "I can see a ruler on the desk.",
+data_structure =  {
+  "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/18-09-2024-20-05-20.png",
+  "sentence": "She is wearing orange trousers and a red hat.",
   "boxes": [
-    "I",
-    "can",
-    "see",
-    "a",
-    "ruler",
-    "on",
-    "the desk"
+    "She",
+    "is wearing",
+    "orange trousers",
+    "and",
+    "a red hat"
   ],
   "cefr_level": "a2",
   "target_vocabulary": [
-    "pencil",
-    "eraser",
-    "highlighter",
-    "ruler",
-    "pencil case",
-    "table",
-    "desk",
-    "chair"
+    "orange trousers",
+    "red hat",
+    "gloves",
+    "big shoes"
   ],
   "target_grammar": [
-    "I can see"
+    "is wearing",
+    "are wearing"
   ],
   "user_choice": [],
   "submitted": False
@@ -58,8 +53,9 @@ def craft_prompt(data, style):
     action_phrase = sentence
     prompt = (
         f"An image showing a scene where a {', '.join(target_vocabulary)} are involved. "
-        f"The scene should depict: {action_phrase} The image should also reflect the grammar usage: {', '.join(target_grammar)}."
+        f"The scene should depict: {action_phrase}" 
         f"Style: {style}"
+        f"comment: never include text in the image"
     )
     print(f"Crafted prompt: {prompt}")
     return prompt
@@ -69,7 +65,7 @@ def generate_and_save_image(data, style, output_folder="./media/img", image_size
         os.makedirs(output_folder)
     try:
         print("Generating image...")
-        key = 'None'
+        key = ''
         client = OpenAI(api_key=key)
         prompt = craft_prompt(data, style)
         response = client.images.generate(

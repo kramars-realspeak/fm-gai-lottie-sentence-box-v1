@@ -1,33 +1,30 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const data =     {
-    "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/17-09-2024-15-10-03.png",
-    "sentence": "I can see a ruler on the desk.",
+
+  const data =  {
+    "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/18-09-2024-20-05-20.png",
+    "sentence": "She is wearing orange trousers and a red hat.",
     "boxes": [
-      "I",
-      "can",
-      "see",
-      "a",
-      "ruler",
-      "on",
-      "the desk"
+      "She",
+      "is wearing",
+      "orange trousers",
+      "and",
+      "a red hat"
     ],
     "cefr_level": "a2",
     "target_vocabulary": [
-      "pencil",
-      "eraser",
-      "highlighter",
-      "ruler",
-      "pencil case",
-      "table",
-      "desk",
-      "chair"
+      "orange trousers",
+      "red hat",
+      "gloves",
+      "big shoes"
     ],
     "target_grammar": [
-      "I can see"
+      "is wearing",
+      "are wearing"
     ],
     "user_choice": [],
     "submitted": false
   }
+  
   function allDropTargetsPopulated() {
     const dropTargets = document.querySelectorAll('.droptarget');
     return Array.from(dropTargets).every(target => target.textContent !== 'drop here');

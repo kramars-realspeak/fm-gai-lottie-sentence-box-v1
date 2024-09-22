@@ -16,37 +16,25 @@ from cefrpy import CEFRAnalyzer
 analyzer = CEFRAnalyzer()
 
 data = {
-  "image_src": "www.household-items.com/book-car-bed-sock-shoe-cat.jpg",
-  "sentence": "There is a book on the table.",
+  "image_src": "www.clothing.com/outfit.jpg",
+  "sentence": "She is wearing orange trousers and a red hat.",
   "boxes": [
-    "There",
-    "is",
-    "a",
-    "book"],
-  "image_src": "www.school-supplies.com/pencil-eraser-highlighter-ruler-pencil-case.jpg",
-  "sentence": "I can see a ruler on the desk.",
-  "boxes": [
-    "I",
-    "can",
-    "see",
-    "a",
-    "ruler",
-    "on",
-    "the desk"
+    "She",
+    "is wearing",
+    "orange trousers",
+    "and",
+    "a red hat"
   ],
   "cefr_level": "a2",
   "target_vocabulary": [
-    "pencil",
-    "eraser",
-    "highlighter",
-    "ruler",
-    "pencil case",
-    "table",
-    "desk",
-    "chair"
+    "orange trousers",
+    "red hat",
+    "gloves",
+    "big shoes"
   ],
   "target_grammar": [
-    "I can see"
+    "is wearing",
+    "are wearing"
   ],
   "user_choice": [],
   "submitted": False
