@@ -18,34 +18,37 @@ from datetime import datetime
 from openai import OpenAI
 
 styles = ["Comic Book", "Gaming", "Realistic", "Fantasy", "GTA5 like", "Minecraft", "Photography", "Lego", "Taylor Swift", "Game of Thrones - Winterfell"]
-style = styles[9]
+style = styles[-4]
 
-data_structure =     {
-      "image_src": "",
-      "sentence": "My brother was playing soccer when I called him.",
-      "boxes": [
-        "My brother",
-        "was",
-        "playing",
-        "soccer",
-        "when",
-        "I",
-        "called",
-        "him"
-      ],
-      "cefr_level": "a2",
-      "target_vocabulary": [
-        "Mum",
-        "Dad",
-        "Brother",
-        "Sister"
-      ],
-      "target_grammar": [
-        "past continuous tense"
-      ],
-      "user_choice": [],
-      "submitted": False
-    }
+data_structure = {
+  "image_src": "www.school-supplies.com/pencil-eraser-highlighter-ruler-pencil-case.jpg",
+  "sentence": "I can see a ruler on the desk.",
+  "boxes": [
+    "I",
+    "can",
+    "see",
+    "a",
+    "ruler",
+    "on",
+    "the desk"
+  ],
+  "cefr_level": "a2",
+  "target_vocabulary": [
+    "pencil",
+    "eraser",
+    "highlighter",
+    "ruler",
+    "pencil case",
+    "table",
+    "desk",
+    "chair"
+  ],
+  "target_grammar": [
+    "I can see"
+  ],
+  "user_choice": [],
+  "submitted": False
+}
 
 def craft_prompt(data, style):
     """Crafts a prompt for DALL-E based on the input data structure."""
@@ -66,7 +69,7 @@ def generate_and_save_image(data, style, output_folder="./media/img", image_size
         os.makedirs(output_folder)
     try:
         print("Generating image...")
-        key = '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'
+        key = 'None'
         client = OpenAI(api_key=key)
         prompt = craft_prompt(data, style)
         response = client.images.generate(
