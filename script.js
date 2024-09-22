@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     "user_choice": [],
     "submitted": false
-  };
-
+  }
+  
   function allDropTargetsPopulated() {
     const dropTargets = document.querySelectorAll('.droptarget');
     return Array.from(dropTargets).every(target => target.textContent !== 'drop here');

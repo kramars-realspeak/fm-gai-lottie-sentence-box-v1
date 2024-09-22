@@ -682,12 +682,13 @@
     },
     {
       "image_src": "www.animals.com/monkey-elephant-snake-tiger.jpg",
-      "sentence": "The elephant walked slowly.",
+      "sentence": "The elephant is the tallest animal.",
       "boxes": [
         "The",
         "elephant",
-        "walked",
-        "slowly"
+        "is",
+        "the tallest", 
+        "animal"
       ],
       "cefr_level": "a1",
       "target_vocabulary": [
@@ -816,12 +817,12 @@
     },
     {
       "image_src": "www.sea-life.com/shark-dolphin-turtle.jpg",
-      "sentence": "The dolphin jumped fast.",
+      "sentence": "The dolphin jumped high.",
       "boxes": [
         "The",
         "dolphin",
         "jumped",
-        "fast"
+        "high"
       ],
       "cefr_level": "a1",
       "target_vocabulary": [
@@ -908,42 +909,95 @@
       "submitted": false
     },
     {
-      "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/19-09-2024-16-14-18.png",
-      "sentence": "The knight is holding a sword.",
+      "image_src": "www.animals.com/size-comparison.jpg",
+      "sentence": "The giraffe is taller than the monkey.",
       "boxes": [
-        "The knight",
-        "is holding",
-        "a sword"
+        "The giraffe",
+        "is",
+        "taller than",
+        "the monkey"
       ],
-      "cefr_level": "a1",
+      "cefr_level": "a2",
       "target_vocabulary": [
-        "knight",
-        "sword",
-        "castle",
-        "armor"
+        "monkey",
+        "giraffe",
+        "tiger",
+        "elephant"
       ],
       "target_grammar": [
-        "present continuous tense"
+        "bigger than",
+        "smaller than",
+        "scarier than",
+        "taller than"
       ],
       "user_choice": [],
       "submitted": false
     },
     {
-      "image_src": "www.clothing.com/outfit.jpg",
-      "sentence": "She is wearing orange trousers and a red hat.",
+      "image_src": "www.farmanimals.com/size-comparison.jpg",
+      "sentence": "The cow is bigger than the goat.",
       "boxes": [
-        "She",
-        "is wearing",
-        "orange trousers",
-        "and",
-        "a red hat"
+        "The cow",
+        "is",
+        "bigger than",
+        "the goat"
       ],
       "cefr_level": "a2",
       "target_vocabulary": [
-        "orange trousers",
-        "red hat",
-        "gloves",
-        "big shoes"
+        "goat",
+        "sheep",
+        "pig",
+        "cow",
+        "chicken"
+      ],
+      "target_grammar": [
+        "bigger than",
+        "smaller than",
+        "fatter than",
+        "slower than"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.vehicles.com/size-speed-comparison.jpg",
+      "sentence": "The plane is the fastest.",
+      "boxes": [
+        "The plane",
+        "is",
+        "the fastest"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "plane",
+        "car",
+        "boat",
+        "bike"
+      ],
+      "target_grammar": [
+        "biggest",
+        "smallest",
+        "fastest"
+      ],
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.fashion.com/outfit.jpg",
+      "sentence": "She is wearing a crown and sunglasses.",
+      "boxes": [
+        "She",
+        "is wearing",
+        "a crown",
+        "and",
+        "sunglasses"
+      ],
+      "cefr_level": "a2",
+      "target_vocabulary": [
+        "jumper",
+        "sunglasses",
+        "crown",
+        "bracelet"
       ],
       "target_grammar": [
         "is wearing",
@@ -953,6 +1007,7 @@
       "submitted": false
     },
     {
+
       "image_src": "www.sports.com/hockey.jpg",
       "sentence": "The best sport is hockey.",
       "boxes": [
@@ -968,6 +1023,7 @@
         "basketball"
       ],
       "target_grammar": [],
+
       "user_choice": [],
       "submitted": false
     },
@@ -1013,4 +1069,5 @@
       "user_choice": [],
       "submitted": false
     }
+
   ]

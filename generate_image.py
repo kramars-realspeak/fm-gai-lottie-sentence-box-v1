@@ -17,6 +17,7 @@ import os
 from datetime import datetime
 from openai import OpenAI
 
+
 styles = ["Comic Book", "Gaming", "Realistic", "Fantasy", "GTA5 like", "Minecraft", "Photography", "Lego", "Taylor Swift", "Game of Thrones - Winterfell", "Roblox", "Fortnite", "School", "Among Us", "Five nights at Freddy's"]
 style = styles[5]
 
