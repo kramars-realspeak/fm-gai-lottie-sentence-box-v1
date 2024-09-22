@@ -1,25 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
-
-  const data =  {
-    "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/18-09-2024-20-05-20.png",
-    "sentence": "She is wearing orange trousers and a red hat.",
+  const data =   {
+    "image_src": "/Users/samuelgibson/Documents/GitHub/fm-gai-lottie-sentence-box-v1/media/img/19-09-2024-17-17-56.png",
+    "sentence": "He is my granddad.",
     "boxes": [
-      "She",
-      "is wearing",
-      "orange trousers",
-      "and",
-      "a red hat"
+      "He",
+      "is",
+      "my granddad"
     ],
-    "cefr_level": "a2",
+    "cefr_level": "a1",
     "target_vocabulary": [
-      "orange trousers",
-      "red hat",
-      "gloves",
-      "big shoes"
+      "grandma",
+      "granddad"
     ],
     "target_grammar": [
-      "is wearing",
-      "are wearing"
+      "He is my",
+      "She is my"
     ],
     "user_choice": [],
     "submitted": false

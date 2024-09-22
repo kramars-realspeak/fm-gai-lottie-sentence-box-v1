@@ -16,25 +16,21 @@ from cefrpy import CEFRAnalyzer
 analyzer = CEFRAnalyzer()
 
 data = {
-  "image_src": "www.clothing.com/outfit.jpg",
-  "sentence": "She is wearing orange trousers and a red hat.",
+  "image_src": "www.family.com/grandparents.jpg",
+  "sentence": "He is my granddad.",
   "boxes": [
-    "She",
-    "is wearing",
-    "orange trousers",
-    "and",
-    "a red hat"
+    "He",
+    "is",
+    "my granddad"
   ],
-  "cefr_level": "a2",
+  "cefr_level": "a1",
   "target_vocabulary": [
-    "orange trousers",
-    "red hat",
-    "gloves",
-    "big shoes"
+    "grandma",
+    "granddad"
   ],
   "target_grammar": [
-    "is wearing",
-    "are wearing"
+    "He is my",
+    "She is my"
   ],
   "user_choice": [],
   "submitted": False

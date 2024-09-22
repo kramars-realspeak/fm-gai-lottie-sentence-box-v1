@@ -909,7 +909,6 @@
       "submitted": false
     },
     {
-
       "image_src": "www.animals.com/size-comparison.jpg",
       "sentence": "The giraffe is taller than the monkey.",
       "boxes": [
@@ -930,7 +929,6 @@
         "smaller than",
         "scarier than",
         "taller than"
-
       ],
       "user_choice": [],
       "submitted": false
@@ -1009,73 +1007,64 @@
       "submitted": false
     },
     {
-      "image_src": "www.clothing.com/winter-gear.jpg",
-      "sentence": "They are wearing gloves and a scarf.",
+
+      "image_src": "www.sports.com/hockey.jpg",
+      "sentence": "The best sport is hockey.",
       "boxes": [
-        "They",
-        "are wearing",
-        "gloves",
-        "and",
-        "a scarf"
+        "The best sport",
+        "is",
+        "hockey"
       ],
       "cefr_level": "a2",
       "target_vocabulary": [
-        "gloves",
-        "hat",
-        "jacket",
-        "scarf"
+        "football",
+        "hockey",
+        "tennis",
+        "basketball"
+      ],
+      "target_grammar": [],
+
+      "user_choice": [],
+      "submitted": false
+    },
+    {
+      "image_src": "www.family.com/simple-family.jpg",
+      "sentence": "She is my mum.",
+      "boxes": [
+        "She",
+        "is",
+        "my mum"
+      ],
+      "cefr_level": "a1",
+      "target_vocabulary": [
+        "mum",
+        "dad",
+        "brother",
+        "sister"
       ],
       "target_grammar": [
-        "is wearing",
-        "are wearing"
+        "He is my",
+        "She is my"
       ],
       "user_choice": [],
       "submitted": false
     },
     {
-      "image_src": "www.clothing.com/outfit.jpg",
-      "sentence": "He is wearing a yellow jacket and green t-shirt.",
+      "image_src": "www.family.com/grandparents.jpg",
+      "sentence": "He is my granddad.",
       "boxes": [
         "He",
-        "is wearing",
-        "a yellow jacket",
-        "and",
-        "green t-shirt"
+        "is",
+        "my granddad"
       ],
-      "cefr_level": "a2",
+      "cefr_level": "a1",
       "target_vocabulary": [
-        "pink trousers",
-        "yellow jacket",
-        "green t-shirt",
-        "purple shoes"
+        "grandma",
+        "granddad"
       ],
       "target_grammar": [
-        "is wearing",
-        "are wearing"
-      ],
-      "user_choice": [],
-      "submitted": false
-    }, 
-    {
-      "image_src": "www.clothing.com/outfit.jpg",
-      "sentence": "She is wearing orange trousers and a red hat.",
-      "boxes": [
-        "She",
-        "is wearing",
-        "orange trousers",
-        "and",
-        "a red hat"
-      ],
-      "cefr_level": "a2",
-      "target_vocabulary": [
-        "orange trousers",
-        "red hat",
-        "gloves",
-        "big shoes"
-      ],
-      "target_grammar": [
-        "is wearing",
-        "are wearing"
+        "He is my",
+        "She is my"
       ],
       "user_choice": [],
       "submitted": false
